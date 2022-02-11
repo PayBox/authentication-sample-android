@@ -34,9 +34,9 @@ class MainActivity : AppCompatActivity(), EventListener {
 
         authSDK = PayBoxAuth.Builder(this)
             .setAuthView(authView)
-            .setSlug("Ps80iM2lcH")
-            .setSecretKey("Sx8eNseBYabaKMymsWQULLWnR46iC9pT")
-            .setToken("6QwxaPQxEU6FkqHbmqn6dPYjpRnyED8m")
+            .setSlug("your_slug_key")
+            .setSecretKey("your_secret_key")
+            .setToken("your_token")
             .setLanguage(Language.ru)
             .build()
 
